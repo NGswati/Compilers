@@ -1,0 +1,20 @@
+%%
+[ ](a|an|the)[ ] { 
+printf("You entered: %s \n",yytext);
+printf("It is an article \n");
+}
+
+[ ](run|walk|eat|talk|submit|fall|call|chat|cry|say|found)[ ] { 
+printf("\nYou entered: %s \n",yytext);
+printf("It is an verb \n");
+}
+. ;
+%%
+
+int main()
+{
+
+yylex();
+return 0;
+
+}
