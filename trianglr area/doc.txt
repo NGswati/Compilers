@@ -1,0 +1,5 @@
+
+lex area.lex
+bison -d area.y
+gcc lex.yy.c area.tab.c
+./a.out
