@@ -1,2 +1,4 @@
 # Compilers
-A lex program Composite
+A lex and bison(yacc) program Composite
+
+
