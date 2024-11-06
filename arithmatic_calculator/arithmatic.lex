@@ -3,6 +3,7 @@
     extern yylval;
 %}
  
+ 
 %% 
 [0-9]+    { 
               yylval = atoi(yytext); 
