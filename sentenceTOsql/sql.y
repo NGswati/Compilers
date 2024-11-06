@@ -17,7 +17,6 @@ void yyerror(char *);
 
 %%
 
-
 LINE: S '\n' {return 0;}
 S:CREATE TABLE STUDENTS attr { printf("create table students ( %s);\n", $4); }
   |DROP TABLE STUDENTS {printf("drop table students;\n");}
