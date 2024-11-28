@@ -58,8 +58,6 @@
 /* Using locations.  */
 #define YYLSP_NEEDED 0
 
-
-
 /* Tokens.  */
 #ifndef YYTOKENTYPE
 # define YYTOKENTYPE
